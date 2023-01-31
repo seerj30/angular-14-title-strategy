@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, TitleStrategy } from '@angular/router';
 
-import { ConcatComponent } from './concat.component';
-import { FaqComponent } from './faq.component';
-import { NewsComponent } from './news.component';
+import { ConcatComponent } from './components/concat.component';
+import { FaqComponent } from './components/faq.component';
+import { NewsComponent } from './components/news.component';
 import { SiteNamePageTitleStrategy } from './site-name-page-title-strategy';
 
 const routes: Routes = [

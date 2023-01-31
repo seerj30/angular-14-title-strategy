@@ -10,6 +10,7 @@ export class SiteNamePageTitleStrategy extends TitleStrategy {
 
   override updateTitle(routerState: RouterStateSnapshot) {
     const title = this.buildTitle(routerState);
+
     if (title !== undefined) {
       this.title.setTitle(`${title} - Duotify Inc.`);
     } else {
